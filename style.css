@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height:100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkred;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    font-size: 2rem;
+    max-width: 50%;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}
+
+nav{
+    width: 75vw;
+    display: flex;
+    justify-content:space-between;
+}
+#vhsBtn{
+    color: rgb(235, 100, 240);
+    border-style: none;
+    border-radius: none;
+    background-color: darkred;
+}
+#myTimer{
+    font-size: 3em;
+}
+
+#vhsBtn:hover{
+    color: aqua;
+
+}
+
+#question{
+font-size: 3em;
+padding: .5em;
+}
+
+
+.questionCard{
+    width:50%;
+    max-width: 75%;
+    height: 60vh;
+    background-color: rgb(79, 153, 153);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+    
+.btn{
+    display:grid;
+    background-color: rgb(235, 100, 240);
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 60%;
+    height: 6em;
+    font-size: 15px;
+    text-align: left;
+    font-weight:bold ;
+}
+
+.btn:hover{
+    background-color: blue;
+    color:aqua ;
+    border-color: whitesmoke;
+    
+}
+
+.hidden{
+    display:nne;
+}
+
+    
