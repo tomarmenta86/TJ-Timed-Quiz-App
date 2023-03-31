@@ -71,6 +71,7 @@ padding: .5em;
     font-size: 15px;
     text-align: left;
     font-weight:bold ;
+    width: 50em;
 }
 
 .btn:hover{
@@ -81,7 +82,12 @@ padding: .5em;
 }
 
 .hidden{
-    display:nne;
+    display:none;
 }
 
+#nextBtn{
+    display:none;
+    margin-top: -5%;
+   
+}
     
